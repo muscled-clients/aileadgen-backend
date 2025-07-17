@@ -9988,3 +9988,7 @@
 {"timestamp": "2025-07-17T19:02:42.415534Z", "level": "INFO", "message": "Logger initialized", "module": "logger", "function": "_log_with_context", "line": 106, "environment": "development"}
 {"timestamp": "2025-07-17T19:02:42.773380Z", "level": "INFO", "message": "🚀 AI Lead Gen API starting up...", "module": "logger", "function": "_log_with_context", "line": 108}
 {"timestamp": "2025-07-17T19:02:42.773513Z", "level": "INFO", "message": "✅ Services initialized", "module": "logger", "function": "_log_with_context", "line": 106, "environment": "development", "api_version": "2.0.0"}
+{"timestamp": "2025-07-17T19:06:27.562954Z", "level": "INFO", "message": "👋 AI Lead Gen API shutting down...", "module": "logger", "function": "_log_with_context", "line": 108}
+{"timestamp": "2025-07-17T19:06:28.239233Z", "level": "INFO", "message": "Logger initialized", "module": "logger", "function": "_log_with_context", "line": 106, "environment": "development"}
+{"timestamp": "2025-07-17T19:06:28.631754Z", "level": "INFO", "message": "🚀 AI Lead Gen API starting up...", "module": "logger", "function": "_log_with_context", "line": 108}
+{"timestamp": "2025-07-17T19:06:28.631879Z", "level": "INFO", "message": "✅ Services initialized", "module": "logger", "function": "_log_with_context", "line": 106, "environment": "development", "api_version": "2.0.0"}

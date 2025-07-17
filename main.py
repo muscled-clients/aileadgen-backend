@@ -49,7 +49,9 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000", 
         "http://localhost:3001",
-        "https://aileadgen-frontend.vercel.app"
+        "https://aileadgen-frontend.vercel.app",
+        "https://aileadgen.dev",
+        "https://www.aileadgen.dev"
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE"],
