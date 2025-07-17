@@ -43,10 +43,16 @@ app = FastAPI(
     version="2.0.0"
 )
 
-# Configure CORS - More restrictive than before
+# Configure CORS - Allow localhost and Vercel domains
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:3001"],
+    allow_origins=[
+        "http://localhost:3000", 
+        "http://localhost:3001",
+        "https://aileadgen-frontend-cebmppo36-muscledcos-projects.vercel.app",
+        "https://aileadgen-frontend-o5qtpw1kk-muscledcos-projects.vercel.app",
+        "https://*.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE"],
     allow_headers=["Content-Type", "Authorization"],
