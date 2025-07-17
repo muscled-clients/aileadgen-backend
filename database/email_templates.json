@@ -1,0 +1,15 @@
+[
+  {
+    "id": "template_1_1752706068",
+    "name": "Welcome Email",
+    "subject": "Hello {{name}}, hope all is well!",
+    "content": "",
+    "variables": [
+      "name",
+      "email"
+    ],
+    "workflow_id": null,
+    "created_at": "2025-07-16 18:47:48.717064",
+    "updated_at": "2025-07-16 18:47:48.717076"
+  }
+]
